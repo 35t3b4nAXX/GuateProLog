@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Fondo -->
+  <rect width="800" height="600" fill="#e6f7ff"/>
+  
+  <!-- Océano Pacífico -->
+  <path d="M0 400 L800 400 L800 600 L0 600 Z" fill="#0066cc" opacity="0.7"/>
+  <text x="400" y="550" font-family="Arial" font-size="24" fill="white" text-anchor="middle">OCÉANO PACÍFICO</text>
+  
+  <!-- Países -->
+  <!-- Guatemala (destacado) -->
+  <path d="M300 150 L360 120 L420 130 L450 200 L420 270 L350 300 L280 290 L250 240 L280 180 Z" fill="#4CAF50" stroke="#333" stroke-width="3"/>
+  <text x="350" y="220" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">GUATEMALA</text>
+  
+  <!-- El Salvador -->
+  <path d="M420 270 L480 280 L500 320 L450 350 L400 330 L350 300 Z" fill="#FFC107" stroke="#333" stroke-width="2"/>
+  <text x="430" y="310" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">EL SALVADOR</text>
+  
+  <!-- Honduras -->
+  <path d="M420 130 L480 100 L560 130 L580 200 L530 240 L480 280 L420 270 L450 200 Z" fill="#2196F3" stroke="#333" stroke-width="2"/>
+  <text x="500" y="190" font-family="Arial" font-size="16" fill="white" text-anchor="middle">HONDURAS</text>
+  
+  <!-- Nicaragua -->
+  <path d="M480 280 L530 240 L580 200 L650 220 L670 280 L630 330 L570 350 L500 320 Z" fill="#9C27B0" stroke="#333" stroke-width="2"/>
+  <text x="580" y="280" font-family="Arial" font-size="16" fill="white" text-anchor="middle">NICARAGUA</text>
+  
+  <!-- Costa Rica -->
+  <path d="M570 350 L630 330 L670 280 L720 300 L740 350 L700 380 L650 390 L600 370 Z" fill="#FF5722" stroke="#333" stroke-width="2"/>
+  <text x="670" y="350" font-family="Arial" font-size="14" fill="white" text-anchor="middle">COSTA RICA</text>
+  
+  <!-- Panamá (parcial) -->
+  <path d="M650 390 L700 380 L740 350 L790 370 L800 400 L760 420 L700 430 Z" fill="#607D8B" stroke="#333" stroke-width="2"/>
+  <text x="750" y="400" font-family="Arial" font-size="14" fill="white" text-anchor="middle">PANAMÁ</text>
+  
+  <!-- Departamentos de Guatemala (representados como puntos) -->
+  <!-- Alta Verapaz -->
+  <circle cx="360" cy="180" r="8" fill="red" stroke="white" stroke-width="2"/>
+  <text x="360" y="165" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Alta Verapaz</text>
+  
+  <!-- Guatemala -->
+  <circle cx="350" cy="240" r="10" fill="red" stroke="white" stroke-width="2"/>
+  <text x="350" y="260" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Guatemala</text>
+  
+  <!-- Petén -->
+  <circle cx="380" cy="140" r="8" fill="red" stroke="white" stroke-width="2"/>
+  <text x="380" y="125" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Petén</text>
+  
+  <!-- Escuintla -->
+  <circle cx="340" cy="280" r="7" fill="red" stroke="white" stroke-width="2"/>
+  <text x="320" y="295" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Escuintla</text>
+  
+  <!-- Quetzaltenango -->
+  <circle cx="300" cy="240" r="7" fill="red" stroke="white" stroke-width="2"/>
+  <text x="280" y="240" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Quetzaltenango</text>
+  
+  <!-- Título del mapa -->
+  <text x="400" y="50" font-family="Arial" font-size="28" fill="#333" text-anchor="middle" font-weight="bold">GUATEMALA Y PAÍSES CENTROAMERICANOS</text>
+  
+  <!-- Leyenda -->
+  <rect x="50" y="480" width="200" height="100" fill="white" stroke="#333" stroke-width="2" rx="10" ry="10"/>
+  <text x="150" y="500" font-family="Arial" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">LEYENDA</text>
+  <circle cx="70" cy="525" r="6" fill="red" stroke="white" stroke-width="1"/>
+  <text x="150" y="530" font-family="Arial" font-size="12" fill="#333">Departamentos de Guatemala</text>
+  <rect x="65" y="545" width="10" height="10" fill="#4CAF50"/>
+  <text x="150" y="555" font-family="Arial" font-size="12" fill="#333">Guatemala</text>
+  <rect x="65" y="565" width="10" height="10" fill="#FFC107"/>
+  <text x="150" y="575" font-family="Arial" font-size="12" fill="#333">Países Centroamericanos</text>
+</svg>

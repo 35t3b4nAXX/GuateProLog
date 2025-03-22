@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Fondo -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="400" y="40" font-family="Arial" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">POBLACIÓN POR DEPARTAMENTO DE GUATEMALA</text>
+  
+  <!-- Leyenda -->
+  <rect x="650" y="100" width="20" height="15" fill="#FF6384"/>
+  <text x="680" y="112" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Mujeres</text>
+  
+  <rect x="650" y="130" width="20" height="15" fill="#36A2EB"/>
+  <text x="680" y="142" font-family="Arial" font-size="14" fill="#333" text-anchor="start">Hombres</text>
+  
+  <!-- Ejes -->
+  <line x1="50" y1="500" x2="750" y2="500" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="500" x2="50" y2="100" stroke="#333" stroke-width="2"/>
+  
+  <!-- Etiquetas de los ejes -->
+  <text x="400" y="540" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">Departamentos</text>
+  <text x="20" y="300" font-family="Arial" font-size="16" fill="#333" text-anchor="middle" transform="rotate(-90 20 300)">Población</text>
+  
+  <!-- Barras de los departamentos (simplificado a 5 departamentos principales) -->
+  <!-- Guatemala -->
+  <rect x="100" y="380" width="40" height="120" fill="#FF6384"/>
+  <rect x="140" y="380" width="40" height="120" fill="#36A2EB"/>
+  <text x="140" y="520" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Guatemala</text>
+  
+  <!-- Quetzaltenango -->
+  <rect x="220" y="320" width="40" height="180" fill="#FF6384"/>
+  <rect x="260" y="495" width="40" height="5" fill="#36A2EB"/>
+  <text x="260" y="520" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Quetzaltenango</text>
+  
+  <!-- Sacatepequez -->
+  <rect x="340" y="150" width="40" height="350" fill="#FF6384"/>
+  <rect x="380" y="380" width="40" height="120" fill="#36A2EB"/>
+  <text x="380" y="520" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Sacatepequez</text>
+  
+  <!-- Solola -->
+  <rect x="460" y="320" width="40" height="180" fill="#FF6384"/>
+  <rect x="500" y="470" width="40" height="30" fill="#36A2EB"/>
+  <text x="500" y="520" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Solola</text>
+  
+  <!-- Quiche -->
+  <rect x="580" y="130" width="40" height="370" fill="#FF6384"/>
+  <rect x="620" y="390" width="40" height="110" fill="#36A2EB"/>
+  <text x="620" y="520" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Quiche</text>
+  
+  <!-- Escala -->
+  <line x1="50" y1="500" x2="45" y2="500" stroke="#333" stroke-width="1"/>
+  <text x="40" y="504" font-family="Arial" font-size="10" fill="#333" text-anchor="end">0</text>
+  
+  <line x1="50" y1="400" x2="45" y2="400" stroke="#333" stroke-width="1"/>
+  <text x="40" y="404" font-family="Arial" font-size="10" fill="#333" text-anchor="end">10k</text>
+  
+  <line x1="50" y1="300" x2="45" y2="300" stroke="#333" stroke-width="1"/>
+  <text x="40" y="304" font-family="Arial" font-size="10" fill="#333" text-anchor="end">20k</text>
+  
+  <line x1="50" y1="200" x2="45" y2="200" stroke="#333" stroke-width="1"/>
+  <text x="40" y="204" font-family="Arial" font-size="10" fill="#333" text-anchor="end">30k</text>
+  
+  <line x1="50" y1="100" x2="45" y2="100" stroke="#333" stroke-width="1"/>
+  <text x="40" y="104" font-family="Arial" font-size="10" fill="#333" text-anchor="end">40k</text>
+  
+  <!-- Información adicional -->
+  <rect x="50" y="60" width="300" height="30" fill="#e9ecef" rx="5" ry="5"/>
+  <text x="200" y="80" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Total población de Guatemala: 15,000,000</text>
+</svg>
